@@ -1,0 +1,22 @@
+<div class="-triage--home">
+	<div class="row">
+		<a href="javascript:void(0)" class="btn btn-raised btn-warning btn-lg col-lg-12">
+			Create New Survey
+			<div class="ripple-container"></div>
+		</a>
+	</div>
+	<div class="row">
+		<div class="panel panel-default" ng-repeat="item in vm.results">
+			<a href="#/Survey/{{item.Id}}">
+				<div class="panel-body">
+					<div class="surveytitle">{{item.SurveyTitle}}</div>
+					<div class="resulttitle">{{item.ResultTitle}}</div>
+					<div class="surveydate">{{item.Date}}</div>
+				</div>
+			</a>
+		</div>
+	</div>
+
+
+
+	</div>

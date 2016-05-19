@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html ng-app="Triage">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+	<title>@ViewBag.Title</title>
+
+	<link href="../../temp/app.css" type="text/css" rel="stylesheet">
+	<link href="~/Content/bootstrap-material-design.min.css" rel="stylesheet"/>
+	<link href="~/Content/ripples.min.css" rel="stylesheet" />
+</head>
+<body>
+
+	<div class="">
+		@RenderBody()
+		<hr />
+		<footer>
+			<p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+		</footer>
+	</div>
+
+	<script replace="true" src="../../temp/bower_scripts.js"></script>
+<script replace="true" src="../../temp/app_scripts.min.js"></script>
+	<script src="~/Scripts/material.min.js"></script>
+	<script src="~/Scripts/ripples.min.js"></script>
+</body>
+</html>

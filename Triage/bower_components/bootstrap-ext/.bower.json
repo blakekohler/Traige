@@ -1,0 +1,27 @@
+{
+  "name": "bootstrap-ext",
+  "version": "0.1.1",
+  "authors": [
+    "Travis Marble <travis.marble@centeva.com>"
+  ],
+  "license": "Proprietary",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "~3.3.5"
+  },
+  "_release": "0.1.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.1.1",
+    "commit": "2a14bbfd04f7a5198608b8b0e2868800a5b03e04"
+  },
+  "_source": "http://gitlab.centeva.com/Travis.Marble/bootstrap-ext.git",
+  "_target": "~0.1",
+  "_originalSource": "bootstrap-ext"
+}

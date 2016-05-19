@@ -1,0 +1,18 @@
+{
+  "generator-centeva-angular": {
+    "uirouter": true,
+    "viewDirectory": "view/",
+    "modalDirectory": "view/",
+    "directiveDirectory": "directive/",
+    "filterDirectory": "filter/",
+    "serviceDirectory": "service/",
+    "inject": {
+      "less": {
+        "relativeToModule": true,
+        "file": "<%= module %>.less",
+        "marker": "/* Add Component LESS Above */",
+        "template": "@import \"<%= filename %>\";"
+      }
+    }
+  }
+}

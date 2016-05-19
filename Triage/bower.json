@@ -1,0 +1,30 @@
+{
+  "name": "triage",
+  "version": "0.0.0",
+  "main": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "jquery": "~2",
+     "lodash": "~3.10",
+     "bootstrap": "~3.3",
+     "moment": "~2.10",
+     "moment-timezone": "~0.4",    
+     "font-awesome": "~4.0",
+     "angular": "~1.4",
+     "angular-ui-router": "~0.2",
+     "angular-animate": "~1.4",
+     "angular-resource": "~1.4",
+     "angular-bootstrap": "~0.13",
+     "angular-moment": "~0.10",
+     "awesome-bootstrap-checkbox": "~0.3",
+     "angular-loading-bar": "~0.8",
+     "bootstrap-ext": "~0.1"
+  },
+  "devDependencies": {
+     "angular-mocks": "~1.4"
+  }
+}
